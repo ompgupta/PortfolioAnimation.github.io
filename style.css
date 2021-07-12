@@ -1,0 +1,90 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,rgb(0, 21, 65), rgba(252, 252, 252, 0.158)), url(./img1.jpg);
+    background-size: cover;
+    background-position: centenr;
+    font-family: 'Roboto', sans-serif;
+}
+header h1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:45%;
+    left: 45%;
+    color: rgb(197, 197, 197);
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 25%;
+    height: 100vh;
+    background:transparent;
+    padding: 1rem 0;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.548);
+}
+.navbar-title{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-left: 3rem;
+}
+.navbar-nav{
+    margin: 3rem 4rem;
+}
+.nav-item{
+    list-style: none;
+    padding: 1rem 0;
+}
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+}
+.nav-link i{
+    margin-right: 1rem;
+}
+.nav-link:hover{
+    background-color: rgba(1, 3, 41, 0.603);
+    transition: 0.3s;
+    color: rgb(206, 206, 206);
+}
+.social-link{
+    position: absolute;
+    bottom:8%;
+    left: 3%;
+}
+.social-link i{
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    box-shadow: 2px 1px 3px gray;
+    cursor: pointer;
+}
+.social-link i:hover{
+    transform: translateY(-20px);
+    transition: 0.3s;
+}
+.social-link i:nth-child(1){
+    background: blue;
+}
+.social-link i:nth-child(2){
+    background: rgb(0, 110, 255);
+}
+.social-link i:nth-child(3){
+    background: rgb(228, 2, 96);
+}
+.social-link i:nth-child(4){
+    background-color: rgb(0, 255, 0);
+}
